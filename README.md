@@ -74,4 +74,4 @@ this project is tiny as no more than 5000 lines but covers many features of a we
 ## 🙏 Acknowledgement
 * [jsoup](https://github.com/jhy/jsoup): Java HTML parser
 * [hutool](https://www.hutool.cn/)：A set of tools that keep Java sweet
-* [tomcat](http://tomcat.apache.org/)：A wide used web server
+* [tomcat](http://tomcat.apache.org/)：A widely used web server
