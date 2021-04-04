@@ -8,8 +8,43 @@ a web server for learning tomcat server
 ## 💡 Introduction
 this project is tiny as no more than 5000 lines but covers many features of a web server and totally writen by Java, is suitable for newbies to learn Java and web server knoweldge 
 
-## ✨  Features
+## ✨ Composition
+1. happyBrowser :  send and review http message with code
+2. unit test : stablely interate project and show use case of this project
+3. happycat log : rotate log happycat server running info
+4. parallel process requests
+5. muti-port and muti-webapp
 
+   1. Server、Service、Connector、Engine、Host、Context implementation
+   2. parse context.xml、server.xml、web.xml
+6. http specification
+
+   1. 200 : normal response
+   2. 404 : client error
+   3. 500 : server error
+   4. compression
+   5. client jump
+   6. server jump
+   7. cookie
+   8. session
+7. servlet
+
+   1. InvokeServlet : handle requests definied in webapp's web.xml
+   2. DefalutServlet : handle static resource requests
+   3. JspServlet : handle JSP request
+   4. servlet life time
+   5. servlet automatic start
+8. class load mechanism
+
+   1. CommonClassLoader : load happycat build-in classes
+   2. WebClassLoader : load webapp classes
+   3. JspClassLoader : load JSP classes
+9. webapp deployment
+
+   10. webapp hot loadding
+   11. war file dynamic deployment
+10. webapp filter
+11. webapp listener
 
 ## 🔍Class-diagram for core classes
 ![image](https://user-images.githubusercontent.com/46141646/113503439-6cd37e00-9564-11eb-8921-0792f1b5a68d.png)
@@ -25,6 +60,7 @@ this project is tiny as no more than 5000 lines but covers many features of a we
 4. run with "java -jar happycat.jar"
 
 ## 👀 Reference 
+* http://tomcat.apache.org/
 * Apache Tomcat Cookbook
 * Tomcat架构解析
 * How Tomcat Works
