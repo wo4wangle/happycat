@@ -2,7 +2,7 @@
 <p align = "center">
 <img alt="Sym" src="https://user-images.githubusercontent.com/46141646/113502918-8de69f80-9561-11eb-8281-078e75bbe750.png">
 <br><br>
-a web server for learning tomcat server
+a web server from learning tomcat server
 <br><br>
 </p>
 
@@ -54,7 +54,7 @@ this project is tiny as no more than 5000 lines but covers many features of a we
 ## 🔍 Sequence-diagram for a 200 request
 ![image](https://user-images.githubusercontent.com/46141646/113503469-a73d1b00-9564-11eb-940a-6e31b8105460.png)
 
-## 💻 how to deploy
+## 💻 How to deploy
 1. build jar with idea 
 2. copy b/、cong/、javaweb/、lib/、log/、webapps/、work/  to the directory of jar file
 3. config right docbase of happycat/conf/server.xml 
